@@ -1,6 +1,6 @@
-# Advent of Code 2019 on Crystal
+# AoC2019 on Crystal
 
-This is a record of my AoC 2019 challenge by using [Crystal language](https://crystal-lang.org/).
+[Advent of Code 2019](https://adventofcode.com/) challenge by using [Crystal language](https://crystal-lang.org/).
 
 ## Structure
 
