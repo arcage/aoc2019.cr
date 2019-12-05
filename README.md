@@ -1,22 +1,24 @@
 # AoC2019 on Crystal
 
-[Advent of Code 2019](https://adventofcode.com/) challenge by using [Crystal language](https://crystal-lang.org/).
+My solutions for [Advent of Code 2019](https://adventofcode.com/) by using [Crystal language](https://crystal-lang.org/).
+
+Done to day 4.
 
 ## Structure
 
 ```
 - aoc2019.cr/
   - exec/
-    - day[DAY]_[PART].cr # code to solve the specific quiz part.
+    - day[DAY]_[PART].cr # source file to solve the specific quiz part.
   - spec/
     - day_spec/
-      - day[DAY]_spec.cr # spec file for quiz of that day
+      - day[DAY]_spec.cr # spec file for the quiz of that day
     - aoc2019_spec.cr    # default spec file for AoC2019 module made by crystal
     - spec_helper.cr     # default helper file made by crystal
   - src/
     - aoc2019/
-      - day[DAY].cr      # implementation for quiz of that day
-    - aoc2019.cr         # main source file of AoC2019 module
+      - day[DAY].cr      # implementation for the quiz of that day
+    - aoc2019.cr         # the main source file of AoC2019 module
 ```
 
 ## Test
@@ -35,7 +37,7 @@ $ crystal spec spec/day_spec/day1_spec.cr
 
 ## Solve Quiz
 
-Give your quiz input to `exec/day[DAY]_[PART].cr` by a text file or STDIN.
+Give your quiz input to `exec/day[DAY]_[PART].cr` as a text file or STDIN.
 
 ```
 $ crystal build exec/day1_1.cr
